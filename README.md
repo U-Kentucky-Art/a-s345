@@ -1,18 +1,18 @@
 # A-S 345
 Web design code examples-learning html and css
 
-unformatted text
-adding comments and basic formatting
-introduction to head and body
-lists and tables
-css and basic text formatting
-adding images
-div, span, and the box model
-linking to pages and files
-introduction to layout with css
-css layout continued
-floating content
-introduction to bootstrap
-screen sizes and responsive design
-navigation and footer
-customizing bootstrap
+0. unformatted text
+1. adding comments and basic formatting
+2. introduction to head and body
+3. lists and tables
+4. css and basic text formatting
+5. adding images
+6. div, span, and the box model
+7. linking to pages and files
+8. introduction to layout with css
+9. css layout continued
+10. floating content
+11. introduction to bootstrap
+12. screen sizes and responsive design
+13. navigation and footer
+14. customizing bootstrap
