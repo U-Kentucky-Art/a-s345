@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      Intro to CSS layout
+    </title>
+    <style>
+      div{
+        margin-top: 10px;
+        /*   border: 5px solid black; shorthand for below */
+        border-color: black;
+        border-style: solid;
+        border-width: 2px;
+      }
+      .box-one{
+        padding:10px;
+        margin-right: 100px;
+      }
+
+      .starting-text{
+        font-weight: bold;
+        font-size: 20px;
+      }
+
+      #sticky-footer{
+        position: fixed;
+        height:150px;
+        bottom: 0px;
+        margin:0px;
+        background-color: rgba(127, 127, 127, 0.3);
+        color:#ff0000;
+      }
+
+      #predictable-box{
+        border:5px solid red;
+        color: red;
+        width: 50px;
+        height:50px;
+      }
+
+      #annoying-box{
+        position: absolute;
+        top:30px;
+        right:100px;
+
+        border:5px solid red;
+        color: red;
+        width: 50px;
+        height:50px;
+
+      }
+
+      .box-one-capture-annoying{
+        position: relative;
+        border:2px solid green;
+      }
+    </style>
+  </head>
+  <body>
+    <h1>Welcome to the MESS :(</h2>
+    <h3>This is partially solved with <a href="https://css-tricks.com/snippets/css/a-guide-to-flexbox/" target="_new">flexbox</a> but really... this should have been <a href="http://caniuse.com/#feat=flexbox" target="_new">done better</a></h3>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+    </div>
+
+
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+      <div id="predictable-box">HEY I am here!!!!</div>
+    </div>
+    <div class="box-one">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+      <div id="annoying-box">HEY I am here!!!!</div>
+    </div>
+    <div class="box-one-capture-annoying">
+      <span class="starting-text">Lorem ipsum</span> dolor sit amet, consectetur adipiscing elit. Donec efficitur pretium dui in rutrum. In et porta velit. Phasellus vel justo in justo semper sagittis. Integer ac pellentesque magna. Quisque sodales sapien ut neque porttitor finibus. Morbi rhoncus lacus vel nunc elementum tempor. Duis quam nisl, ullamcorper et ante et, sagittis porttitor mauris. Fusce sollicitudin arcu est, vel maximus ex congue ut. Morbi in convallis neque. Fusce pellentesque pharetra erat, quis placerat nulla convallis sit amet.
+      <div id="annoying-box">HEY I am here!!!!</div>
+    </div>
+
+    <div id="sticky-footer">Hello, I am a footer that hangs on the page no matter what</div>
+
+  </body>
+</html>
