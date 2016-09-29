@@ -1,5 +1,6 @@
 body{
-  padding-bottom: 150px;
+  padding-bottom: 50px;
+  margin-left: 50px;
 }
 h1{
   font-family: 'Amatic SC', cursive;
@@ -9,7 +10,7 @@ h1{
 
 p{
   font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 1em;
+  font-size: 1.5em;
 }
 
 #nav{
