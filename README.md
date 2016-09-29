@@ -14,5 +14,4 @@ Web design code examples-learning html and css
 10. floating content
 11. introduction to bootstrap
 12. screen sizes and responsive design
-13. navigation and footer
-14. customizing bootstrap
+13. customizing bootstrap

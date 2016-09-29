@@ -1,0 +1,39 @@
+body{
+  padding-bottom: 50px;
+  margin-left: 50px;
+}
+h1{
+  font-family: 'Amatic SC', cursive;
+  font-size: 60px;
+  text-align: center;
+}
+
+p{
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.5em;
+}
+
+#nav{
+  border:1px solid black;
+  margin-right:auto;
+  margin-left: auto;
+  margin-bottom: 50px;
+  padding: 10px;
+
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1.3em;
+
+  text-align: center;
+  max-width: 200px;
+
+}
+
+.move_me_left{
+  float:left;
+  margin-right: 20px;
+}
+
+.move_me_right{
+  float:right;
+  margin-left: 20px;
+}
