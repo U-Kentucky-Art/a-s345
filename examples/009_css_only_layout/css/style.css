@@ -24,7 +24,7 @@ body{
 }
 
 @media only screen and (min-width: 768px) {
-  #sticky_footer{
+  .sticky_footer{
     position:fixed;
     width:100%;
     height:100px;
@@ -35,7 +35,7 @@ body{
 }
 
 @media only screen and (max-width: 768px) {
-  #sticky_footer{
+  .sticky_footer{
     visibility: hidden;
   }
 }
